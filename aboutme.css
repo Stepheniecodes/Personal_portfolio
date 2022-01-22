@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400&family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'BioRhyme', serif; 
+    color: white;
+    background: url(https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg?size=626&ext=jpg);
+    font-size: medium;
+
+}
+
+h2{
+    text-align: center;
+    color: #F86345;
+}
+
+.bodycontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1100px;
+    margin: 40px auto 0 auto;
+    
+}
+
+img{
+   width: 300px;
+   padding-left: 40px;
+}
+
+button{
+    background-color: #F86345;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.whatido{
+    max-width:1100px;
+    margin: 40px auto 0 auto;
+}
+
+.uiux{
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+    border-radius: 5px;
+}
+
+@media (min-width: 900px){
+    .whatido{
+    display: flex;
+    justify-content: space-between;
+    }
+}
+
+.uiux:nth-child(1){background-color: #242124;}
+.uiux:nth-child(2){background-color: #F86345;}
+.uiux:nth-child(3){background-color: #1B1B1B;}
+
+
+h3{
+    position: relative;
+    bottom: 50px;
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: #bd543f;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+}
+    
+.footerimg img{ 
+        width: 100px;
+        height: 100px;
+        position: relative;
+    
+}

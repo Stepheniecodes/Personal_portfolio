@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400&family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'BioRhyme', serif; 
+    color: white;
+    background: url(https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg?size=626&ext=jpg);
+    
+}
+
+
+
+
+li, a {
+
+    display:inline;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+ nav{
+    display: inline-block;
+    
+}
+header{
+
+    display: flex;
+   justify-content: space-around;
+  
+  
+}
+
+.logo{
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: #F86345;
+    position: relative;
+    bottom:450px;
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: none;
+    animation-timing-function: linear;
+    transform: rotate(20deg);
+    animation-direction:alternate;
+}
+
+@keyframes color {
+    0%{
+        background-color: #F86345;
+    }
+
+    50%{
+        background-color: blueviolet;
+        left: 500px;
+        opacity: 0.1;
+    }
+
+    100%{
+        background-color: #F86345;
+    }
+    
+}
+
+.square2{
+    width: 50px;
+    height: 50px;
+    background-color: #F86345;
+    position: relative;
+    bottom:250px;
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: none;
+    animation-timing-function: linear;
+    transform: rotate(60deg);
+    animation-direction:alternate;
+}
+
+@keyframes color {
+    0%{
+        background-color: #F86345;
+    }
+
+    50%{
+        background-color: blueviolet;
+        left: 700px;
+        opacity: 0.1;
+    }
+
+    100%{
+        background-color: #F86345;
+    }
+    
+}
+
+
+
+.circle{
+width: 50px;
+height: 50px;
+background-color: #F86345;
+border-radius: 50%;
+position:relative;
+bottom: 120px;
+left: 600px;
+animation-name: circle;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-fill-mode: none;
+animation-timing-function: linear;
+
+
+}
+
+@keyframes circle {
+    0%{
+        background-color: #F86345;
+    }
+    50%{
+        background-color: blueviolet;
+        bottom: 500px;
+        opacity: 0.1;
+    }
+    100%{
+        background-color: #F86345;
+        top: 0px;
+
+    }
+}
+
+.triangle{
+    width: 50px;
+    height: 50px;
+    background-color: #F86345;
+    border-radius: 50%;
+    position:relative;
+    bottom: 300px;
+    left: 400px;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-timing-function: linear;
+    
+    
+    }
+    
+    @keyframes circle {
+        0%{
+            background-color: #F86345;
+        }
+        50%{
+            background-color: blueviolet;
+            bottom: 500px;
+            opacity: 0.1;
+        }
+        100%{
+            background-color: #F86345;
+            top: 0px;
+    
+        }
+    }
+    
+    .rect{
+        width: 50px;
+        height: 50px;
+        background-color: #F86345;
+        position:relative;
+        bottom: 120px;
+        left: 800px;
+        animation-name: circle;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+        animation-timing-function: linear;
+        
+        
+        }
+        
+        @keyframes circle {
+            0%{
+                background-color: #F86345;
+            }
+            50%{
+                background-color: blueviolet;
+                bottom: 500px;
+                opacity: 0.1;
+            }
+            100%{
+                background-color: #F86345;
+                bottom: 5px;
+        
+            }
+        }
+        
+
+
+.landingpage{
+    display: flex;
+    max-width:1100px;
+    margin: 40px auto 0 auto;
+}
+
+.details{
+    position: relative;
+    top: 120px;
+}
+
+button{
+    background-color: #F86345;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #F86345;
+}
+
+a:hover{
+    color: #F86345;
+}
+
+
+a{
+    color:white;
+}
+
+h1{
+    color: #F86345;
+}
+
+.footer{
+display: flex;
+justify-content:space-between;
+align-items: center;
+background-color: black;
+}
+
+.footerimg img{ 
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+}

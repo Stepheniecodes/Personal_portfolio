@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400&family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'BioRhyme', serif; 
+    color: white;
+    background: url(https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg?size=626&ext=jpg);
+    font-size: medium;
+
+}
+
+h2{
+    text-align: center;
+    color: #F86345;
+}
+
+h1, p{
+    text-align: center;
+}
+
+h3{
+    position: relative;
+    bottom: 50px;
+}
+
+a:hover{
+    color: #F86345;
+}
+
+.bodycontainer{
+    max-width: 1100px;
+    margin: 40px auto 0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+i{
+    color:#F86345;
+}
+
+input{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+}
+
+.formtype{
+    flex-basis: 70%;
+}
+
+input[type=submit]{
+    width: 100px;
+    cursor: pointer;
+    
+    
+}
+
+input[type=submit]:hover{
+    background-color:#F86345;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    }
+    
+    .footerimg img{ 
+        width: 100px;
+        height: 100px;
+        position: relative;
+    
+    }
